@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Utama</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    
+    .header-image {
+      background-image: url('assets/images/image1.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header-image h1 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-image">
+    <h1> SELAMAT DATANG</h1>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Informasi Perusahaan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.html">Registrasi</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Konten Utama -->
+  <div class="container mt-5">
+    <h1 class="text-center mb-4"> PT AgroHijau Nusantara</h1>
+    <div class="row">
+
+      <!-- Card 1 -->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="assets/images/image1.jpeg" class="card-img-top" alt="Informasi 1">
+          <div class="card-body">
+            <h5 class="card-title"> PT AgroHijau Nusantara Mandala</h5>
+            <p class="card-text">Desa Sukamaju, Kecamatan Hijau Lestari, Kabupaten Mandala, Jawa Tengah, Indonesia.</p>
+            <a href="detail.html" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="assets/images/image2.jpeg" class="card-img-top" alt="Informasi 2">
+          <div class="card-body">
+            <h5 class="card-title"> PT AgroHijau Nusantara Cikalong</h5>
+            <p class="card-text">Desa Cikalong, Kecamatan Cikalong, Kabupaten Bandung, Jawa Barat, Indonesia.</p>
+            <a href="detail.html" class="btn btn-primary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center mt-5">
+    <p>@Copyright by 22552011330_ARYA WARDANA_TIFPK22</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
